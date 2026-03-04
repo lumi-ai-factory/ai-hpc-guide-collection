@@ -26,7 +26,7 @@ This is work in progress lead by the [LUMI AI Factory](lumi-ai-factory.eu) but w
 | PyTorch DDP | [Lumi-supercomputer/LUMI-AI-Guide (Section 5)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/5-multi-gpu-and-node) | |
 | PyTorch DeepSpeed | [Lumi-supercomputer/LUMI-AI-Guide (Section 5)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/5-multi-gpu-and-node) | |
 | Huggingface Accelerate | [CSCfi/llm-fine-tuning-examples](https://github.com/CSCfi/llm-fine-tuning-examples) | |
-
+ 
 ## Profiling
 | Topic | What Guide | Notes |
 |--------|------------|-------|
@@ -60,3 +60,10 @@ This is work in progress lead by the [LUMI AI Factory](lumi-ai-factory.eu) but w
 ## Relevant topics where no material has been found
 - Data Preprocessing on HPC
 - Moving from HPC to production environments
+
+## Relevant resources that need to be mapped
+- [gitlab.tuwien.ac.at/vsc-public/training/LLMs-on-supercomputers](https://gitlab.tuwien.ac.at/vsc-public/training/LLMs-on-supercomputers)
+- [mimer-ai/llm_finetuning_example](https://github.com/mimer-ai/llm_finetuning_example)
+- [amd/HPCTrainingExamples/tree/main/MLExamples](https://github.com/amd/HPCTrainingExamples/tree/main/MLExamples)
+- [ENCCS/castiel-multi-gpu-ai](https://github.com/ENCCS/castiel-multi-gpu-ai)
+- [openhackathons-org/End-to-End-AI-for-Science/tree/main/workspace/python](https://github.com/openhackathons-org/End-to-End-AI-for-Science/tree/main/workspace/python)

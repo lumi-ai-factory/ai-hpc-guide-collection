@@ -7,6 +7,9 @@ This is work in progress lead by the [LUMI AI Factory](lumi-ai-factory.eu) but w
 - opening [new issues](https://github.com/lumi-ai-factory/ai-hpc-guide-collection/issues/new)
 - opening [new pull requests](https://github.com/lumi-ai-factory/ai-hpc-guide-collection/compare).
 
+For most repositories, we are not the owner. We reference to them but have no control over the content of these repositories. Take that into account when following these guides / code snippets.
+
+-----
 
 ## AI Container / Software environments on HPC
 | Topic | What Guide | Notes |
@@ -25,7 +28,7 @@ This is work in progress lead by the [LUMI AI Factory](lumi-ai-factory.eu) but w
 |-------|------------|-------|
 | PyTorch DDP | [Lumi-supercomputer/LUMI-AI-Guide (Section 5)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/5-multi-gpu-and-node) | |
 | PyTorch DeepSpeed | [Lumi-supercomputer/LUMI-AI-Guide (Section 5)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/5-multi-gpu-and-node) | |
-| Huggingface Accelerate | [CSCfi/llm-fine-tuning-examples](https://github.com/CSCfi/llm-fine-tuning-examples) | |
+| Huggingface Accelerate | [CSCfi/llm-fine-tuning-examples](https://github.com/CSCfi/llm-fine-tuning-examples) | Code snippets, not full guide|
  
 ## Profiling
 | Topic | What Guide | Notes |
@@ -48,13 +51,13 @@ This is work in progress lead by the [LUMI AI Factory](lumi-ai-factory.eu) but w
 ## Inference
 | Topic | What Guide | Notes |
 |--------|------------|-------|
-| vLLM | [CSCfi/ai-inference-examples](https://github.com/CSCfi/ai-inference-examples) | |
-| ollama | [CSCfi/ai-inference-examples](https://github.com/CSCfi/ai-inference-examples) | |
+| vLLM | [CSCfi/ai-inference-examples](https://github.com/CSCfi/ai-inference-examples) | Code snippets, not full guide |
+| ollama | [CSCfi/ai-inference-examples](https://github.com/CSCfi/ai-inference-examples) | Code snippets, not full guide |
 
 ## Evaluation frameworks
 | Topic | What Guide | Notes |
 |--------|------------|-------|
-| LM Eval Harness on LUMI | [LumiOpen/lm-evaluation-harness](https://github.com/LumiOpen/lm-evaluation-harness) | Seems like a relevant fork|
+| LM Eval Harness on LUMI | [LumiOpen/lm-evaluation-harness](https://github.com/LumiOpen/lm-evaluation-harness) | Seems like a relevant fork |
 
 
 ## Relevant topics where no material has been found

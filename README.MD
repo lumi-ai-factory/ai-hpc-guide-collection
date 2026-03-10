@@ -26,7 +26,7 @@ For most repositories, we are not the owner. We reference to them but have no co
 ## LLM fine-tuning
 | Topic | What Guide | Notes |
 |-------|------------|-------|
-| Huggingface Accelerate | [mimer-ai/llm_finetuning_example](github.com/mimer-ai/llm_finetuning_example) | Code snippets for Leonardo, LUMI, and Meluxina |
+| Huggingface Accelerate | [mimer-ai/llm_finetuning_example](https://github.com/mimer-ai/llm_finetuning_example) | Code snippets for Leonardo, LUMI, and Meluxina |
 | Huggingface Accelerate | [CSCfi/llm-fine-tuning-examples](https://github.com/CSCfi/llm-fine-tuning-examples) | Code snippets for LUMI and Mahti |
 | DeepSpeed | [AaltoRSE/llm-on-lumi/tree/main](https://github.com/AaltoRSE/llm-on-lumi/tree/main) | Code snippets for LUMI |
 | Nanotron | [AaltoRSE/llm-on-lumi/tree/main](https://github.com/AaltoRSE/llm-on-lumi/tree/main) | Code snippets for LUMI |

@@ -23,6 +23,14 @@ For most repositories, we are not the owner. We reference to them but have no co
 | File Formats | [Lumi-supercomputer/LUMI-AI-Guide (Section 3)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/3-file-formats) | Guide for LUMI |
 | Data Storage | [Lumi-supercomputer/LUMI-AI-Guide (Section 4)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/4-data-storage) | Guide for LUMI |
 
+## LLM fine-tuning
+| Topic | What Guide | Notes |
+|-------|------------|-------|
+| Huggingface Accelerate | [mimer-ai/llm_finetuning_example](github.com/mimer-ai/llm_finetuning_example) | Code snippets for Leonardo, LUMI, and Meluxina |
+| Huggingface Accelerate | [CSCfi/llm-fine-tuning-examples](https://github.com/CSCfi/llm-fine-tuning-examples) | Code snippets for LUMI and Mahti |
+| DeepSpeed | [AaltoRSE/llm-on-lumi/tree/main](https://github.com/AaltoRSE/llm-on-lumi/tree/main) | Code snippets for LUMI |
+| Nanotron | [AaltoRSE/llm-on-lumi/tree/main](https://github.com/AaltoRSE/llm-on-lumi/tree/main) | Code snippets for LUMI |
+
 ## Multi GPU and Node Training
 | Topic | What Guide | Notes |
 |-------|------------|-------|
@@ -74,7 +82,6 @@ For most repositories, we are not the owner. We reference to them but have no co
 
 ## Relevant resources that need to be mapped
 - [gitlab.tuwien.ac.at/vsc-public/training/LLMs-on-supercomputers](https://gitlab.tuwien.ac.at/vsc-public/training/LLMs-on-supercomputers)
-- [mimer-ai/llm_finetuning_example](https://github.com/mimer-ai/llm_finetuning_example)
 - [amd/HPCTrainingExamples/tree/main/MLExamples](https://github.com/amd/HPCTrainingExamples/tree/main/MLExamples)
 - [ENCCS/castiel-multi-gpu-ai](https://github.com/ENCCS/castiel-multi-gpu-ai)
 - [openhackathons-org/End-to-End-AI-for-Science/tree/main/workspace/python](https://github.com/openhackathons-org/End-to-End-AI-for-Science/tree/main/workspace/python)

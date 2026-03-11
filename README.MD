@@ -8,7 +8,7 @@ This is work in progress lead by the [LUMI AI Factory](lumi-ai-factory.eu) but w
 - opening [new pull requests](https://github.com/lumi-ai-factory/ai-hpc-guide-collection/compare).
 
 
-! > [!IMPORTANT] 
+> [!IMPORTANT] 
 > For most repositories, we are not the owner. We reference to them but have no control over the content of these repositories.
 > Many repositories are not officially supported by the maintainers of the HPC systems.
 > Please take that into account when following these guides / code snippets.

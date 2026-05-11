@@ -18,36 +18,36 @@ This is work in progress lead by the [LUMI AI Factory](lumi-ai-factory.eu) but w
 ## AI Container / Software environments on HPC
 | Topic | What Guide | Notes |
 |-------|------------|-------|
-| PyTorch container | [Lumi-supercomputer/LUMI-AI-Guide (Sections 1+2)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide) | Guide for LUMI |
+| PyTorch container | [Lumi-supercomputer/LUMI-AI-Guide (Sections 01+02)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide) | Guide for LUMI |
 
 
 ## Data on Lustre
 | Topic | What Guide | Notes |
 |-------|------------|-------|
-| File Formats | [Lumi-supercomputer/LUMI-AI-Guide (Section 3)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/3-file-formats) | Guide for LUMI |
-| Data Storage | [Lumi-supercomputer/LUMI-AI-Guide (Section 4)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/4-data-storage) | Guide for LUMI |
+| File Formats | [Lumi-supercomputer/LUMI-AI-Guide (Section 03)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/03-file-formats) | Guide for LUMI |
+| Data Storage | [Lumi-supercomputer/LUMI-AI-Guide (Section 04)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/04-data-storage) | Guide for LUMI |
 
 ## LLM fine-tuning
 | Topic | What Guide | Notes |
 |-------|------------|-------|
 | Huggingface Accelerate | [mimer-ai/llm_finetuning_example](https://github.com/mimer-ai/llm_finetuning_example) | Code snippets for Leonardo, LUMI, and Meluxina |
 | Huggingface Accelerate | [CSCfi/llm-fine-tuning-examples](https://github.com/CSCfi/llm-fine-tuning-examples) | Code snippets for LUMI and Mahti |
-| DeepSpeed | [AaltoRSE/llm-on-lumi/tree/main](https://github.com/AaltoRSE/llm-on-lumi/tree/main) | Code snippets for LUMI |
-| Nanotron | [AaltoRSE/llm-on-lumi/tree/main](https://github.com/AaltoRSE/llm-on-lumi/tree/main) | Code snippets for LUMI |
-| Megatron-Bridge (very large training runs) | [OpenEuroLLM/Megatron-Bridge-LUMI/tree/main](https://github.com/OpenEuroLLM/Megatron-Bridge-LUMI/tree/main) | The code in this repo has been modified to work on AMD GPUs. See [quickstart](https://github.com/OpenEuroLLM/Megatron-Bridge-LUMI/blob/main/quickstart.md) for instructions on how to run this on LUMI. See also [OpenEuroLLM/Megatron-Bridge-utils](https://github.com/OpenEuroLLM/Megatron-Bridge-utils). Note that this probably requires some work to get it to run and thus probably only relevant for advanced users.|
+| DeepSpeed | [AaltoRSE/llm-on-lumi](https://github.com/AaltoRSE/llm-on-lumi/tree/main) | Code snippets for LUMI |
+| Nanotron | [AaltoRSE/llm-on-lumi](https://github.com/AaltoRSE/llm-on-lumi/tree/main) | Code snippets for LUMI |
+| Megatron-Bridge (very large training runs) | [OpenEuroLLM/Megatron-Bridge-LUMI](https://github.com/OpenEuroLLM/Megatron-Bridge-LUMI/tree/main) | The code in this repo has been modified to work on AMD GPUs. See [quickstart](https://github.com/OpenEuroLLM/Megatron-Bridge-LUMI/blob/main/quickstart.md) for instructions on how to run this on LUMI. See also [OpenEuroLLM/Megatron-Bridge-utils](https://github.com/OpenEuroLLM/Megatron-Bridge-utils). Note that this probably requires some work to get it to run and thus probably only relevant for advanced users.|
 
 ## Multi GPU and Node Training
 | Topic | What Guide | Notes |
 |-------|------------|-------|
-| PyTorch DDP | [Lumi-supercomputer/LUMI-AI-Guide (Section 5)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/5-multi-gpu-and-node) | Guide for LUMI |
-| PyTorch DeepSpeed | [Lumi-supercomputer/LUMI-AI-Guide (Section 5)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/5-multi-gpu-and-node) | Guide for LUMI |
+| PyTorch DDP | [Lumi-supercomputer/LUMI-AI-Guide (Section 05)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/05-multi-gpu-and-node) | Guide for LUMI |
+| PyTorch DeepSpeed | [Lumi-supercomputer/LUMI-AI-Guide (Section 05)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/05-multi-gpu-and-node) | Guide for LUMI |
 | Huggingface Accelerate | [CSCfi/llm-fine-tuning-examples](https://github.com/CSCfi/llm-fine-tuning-examples) | Code snippets for LUMI and Mahti |
  
 ## Profiling
 | Topic | What Guide | Notes |
 |--------|------------|-------|
-| ROCm-SMI on LUMI | [Lumi-supercomputer/LUMI-AI-Guide (Section 6)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/6-monitoring-and-profiling) | Guide for LUMI |
-| PyTorch Profiler | [Lumi-supercomputer/LUMI-AI-Guide (Section 6)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/6-monitoring-and-profiling) | |
+| ROCm-SMI on LUMI | [Lumi-supercomputer/LUMI-AI-Guide (Section 06)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/06-monitoring-and-profiling) | Guide for LUMI |
+| PyTorch Profiler | [Lumi-supercomputer/LUMI-AI-Guide (Section 06)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/06-monitoring-and-profiling) | |
 
 ## Hyperparameter optimization
 | Topic | What Guide | Notes |
@@ -57,13 +57,14 @@ This is work in progress lead by the [LUMI AI Factory](lumi-ai-factory.eu) but w
 ## MLOps
 | Topic | What Guide | Notes |
 |--------|------------|-------|
-| Tensor Board | [Lumi-supercomputer/LUMI-AI-Guide (Section 7)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/7-TensorBoard-visualization) | |
-| ML Flow | [docs.csc.fi/support/tutorials/ml-workflows/](https://docs.csc.fi/support/tutorials/ml-workflows/#mlflow); [Lumi-supercomputer/LUMI-AI-Guide (Section 8)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/8-MLflowlization) | Guides for LUMI and Mahti |
+| Tensor Board | [Lumi-supercomputer/LUMI-AI-Guide (Section 07)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/07-TensorBoard-visualization) | |
+| ML Flow | [docs.csc.fi/support/tutorials/ml-workflows/](https://docs.csc.fi/support/tutorials/ml-workflows/#mlflow); [Lumi-supercomputer/LUMI-AI-Guide (Section 08)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/08-MLflowlization) | Guides for LUMI and Mahti |
 
 
 ## Inference
 | Topic | What Guide | Notes |
 |--------|------------|-------|
+| vLLM | [Lumi-supercomputer/LUMI-AI-Guide (Section 10)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/10-LLM-inference) | Guide for LUMI |
 | vLLM | [CSCfi/ai-inference-examples](https://github.com/CSCfi/ai-inference-examples) | Code snippets, not full guide |
 | ollama | [CSCfi/ai-inference-examples](https://github.com/CSCfi/ai-inference-examples) | Code snippets, not full guide |
 

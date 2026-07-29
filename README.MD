@@ -65,6 +65,13 @@ This is work in progress lead by the [LUMI AI Factory](lumi-ai-factory.eu) but w
 | Tensor Board | [Lumi-supercomputer/LUMI-AI-Guide (Section 7)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/7-TensorBoard-visualization) | |
 | ML Flow | [docs.csc.fi/support/tutorials/ml-workflows/](https://docs.csc.fi/support/tutorials/ml-workflows/#mlflow); [Lumi-supercomputer/LUMI-AI-Guide (Section 8)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/8-MLflowlization) | Guides for LUMI and Mahti |
 
+### Getting Started / Onboarding
+
+| Topic | What Guide | Notes |
+| --- | --- | --- |
+| LUMI AI onboarding (fundamentals) | [LUMI AIF Onboarding](https://lumi-ai-factory.github.io/LUMI_AIF_Onboarding/) | Self-paced primer for newcomers for LUMI |
+| LUMI AI hands-on workshop | [Getting_Started_with_AI_workshop](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop) | Workshop material for LUMI (may be outdated). |
+
 
 ## Inference
 | Topic | What Guide | Notes |

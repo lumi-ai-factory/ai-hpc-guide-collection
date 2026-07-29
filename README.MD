@@ -19,7 +19,9 @@ This is work in progress lead by the [LUMI AI Factory](lumi-ai-factory.eu) but w
 | Topic | What Guide | Notes |
 |-------|------------|-------|
 | PyTorch container | [Lumi-supercomputer/LUMI-AI-Guide (Sections 1+2)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide) | Guide for LUMI |
-
+| Running containers on LUMI | [Getting_Started_with_AI_workshop (Ch. 05)](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop/tree/main/05_Running_containers_on_LUMI) | Workshop material for LUMI (may be outdated). Singularity/SingularityCE, pulling Docker images, using official LAIF containers. Container paths & course reservations are workshop-specific |
+| Building containers from conda/pip | [Getting_Started_with_AI_workshop (Ch. 06)](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop/tree/main/06_Bulding_containers_from_conda_pip_environments) | Workshop material for LUMI (may be outdated). Uses `cotainr` to build containers from conda/pip environments, incl. ROCm 7.0 PyTorch on AMD GPUs |
+| Extending containers with virtual environments | [Getting_Started_with_AI_workshop (Ch. 07)](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop/tree/main/07_Extending_containers_with_virtual_environments_for_faster_testing) | Workshop material for LUMI (may be outdated). Extending a container with a venv for faster iteration/testing |
 
 ## Data on Lustre
 | Topic | What Guide | Notes |
@@ -42,6 +44,8 @@ This is work in progress lead by the [LUMI AI Factory](lumi-ai-factory.eu) but w
 | PyTorch DDP | [Lumi-supercomputer/LUMI-AI-Guide (Section 5)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/5-multi-gpu-and-node) | Guide for LUMI |
 | PyTorch DeepSpeed | [Lumi-supercomputer/LUMI-AI-Guide (Section 5)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/5-multi-gpu-and-node) | Guide for LUMI |
 | Huggingface Accelerate | [CSCfi/llm-fine-tuning-examples](https://github.com/CSCfi/llm-fine-tuning-examples) | Code snippets for LUMI and Mahti |
+| torchrun single-node multi-GCD | [Getting_Started_with_AI_workshop (Ch. 08)](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop/tree/main/08_Scaling_to_multiple_GPUs) | Workshop material for LUMI (may be outdated). Adapting a HuggingFace/PyTorch training script for data-parallel training across all 8 GCDs on one node via torchrun |
+| Multi-node scaling (RCCL/interconnect) | [Getting_Started_with_AI_workshop (Ch. 09)](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop/tree/main/09_Extreme_scale_AI) | Workshop material for LUMI (may be outdated). Multi-node scaling: CPU–GPU binding masks, `NCCL_SOCKET_IFNAME`/`NCCL_NET_GDR_LEVEL`, aws-ofi-nccl CXI plugin for RCCL |
  
 ## Profiling
 | Topic | What Guide | Notes |

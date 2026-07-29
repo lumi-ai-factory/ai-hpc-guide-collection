@@ -37,6 +37,7 @@ This is work in progress lead by the [LUMI AI Factory](lumi-ai-factory.eu) but w
 | DeepSpeed | [AaltoRSE/llm-on-lumi/tree/main](https://github.com/AaltoRSE/llm-on-lumi/tree/main) | Code snippets for LUMI |
 | Nanotron | [AaltoRSE/llm-on-lumi/tree/main](https://github.com/AaltoRSE/llm-on-lumi/tree/main) | Code snippets for LUMI |
 | Megatron-Bridge (very large training runs) | [OpenEuroLLM/Megatron-Bridge-LUMI/tree/main](https://github.com/OpenEuroLLM/Megatron-Bridge-LUMI/tree/main) | The code in this repo has been modified to work on AMD GPUs. See [quickstart](https://github.com/OpenEuroLLM/Megatron-Bridge-LUMI/blob/main/quickstart.md) for instructions on how to run this on LUMI. See also [OpenEuroLLM/Megatron-Bridge-utils](https://github.com/OpenEuroLLM/Megatron-Bridge-utils). Note that this probably requires some work to get it to run and thus probably only relevant for advanced users.|
+| Reinforcement learning fine-tuning (GRPO / RLVR) with [verl](https://github.com/verl-project/verl) | [CSCfi/llm-rl-fine-tuning-examples](https://github.com/CSCfi/llm-rl-fine-tuning-examples) | Code snippets for LUMI. |
 
 ## Multi GPU and Node Training
 | Topic | What Guide | Notes |

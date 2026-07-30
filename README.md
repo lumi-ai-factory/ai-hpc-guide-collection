@@ -1,12 +1,10 @@
 # AI HPC Guide Collection
 
-
 This is a collection of guides / code snippets for artificial intelligence (AI) workloads on high performance computing (HPC).
 
-This is work in progress lead by the [LUMI AI Factory](https://lumi-ai-factory.eu) but we welcome contributions via
+This is a work in progress led by the [LUMI AI Factory](https://lumi-ai-factory.eu) but we welcome contributions via
 - opening [new issues](https://github.com/lumi-ai-factory/ai-hpc-guide-collection/issues/new)
 - opening [new pull requests](https://github.com/lumi-ai-factory/ai-hpc-guide-collection/compare).
-
 
 > [!IMPORTANT]
 > For most repositories, we are not the owner. We reference to them but have no control over the content of these repositories.
@@ -17,24 +15,25 @@ This is work in progress lead by the [LUMI AI Factory](https://lumi-ai-factory.e
 
 ## Contents
 
-- [Getting Started / Onboarding](#getting-started--onboarding)
-- [AI Container / Software environments on HPC](#ai-container--software-environments-on-hpc)
+- [Getting started / onboarding](#getting-started--onboarding)
+- [AI container / software environments on HPC](#ai-container--software-environments-on-hpc)
 - [Data on Lustre](#data-on-lustre)
 - [Evaluation frameworks](#evaluation-frameworks)
 - [Hyperparameter optimization](#hyperparameter-optimization)
 - [Inference](#inference)
 - [LLM fine-tuning](#llm-fine-tuning)
 - [MLOps](#mlops)
-- [Multi GPU and Node Training](#multi-gpu-and-node-training)
+- [Multi GPU and node training](#multi-gpu-and-node-training)
 - [Profiling](#profiling)
 - [Quantization](#quantization)
 - [Relevant topics where no material has been found](#relevant-topics-where-no-material-has-been-found)
 - [Relevant resources that need to be mapped](#relevant-resources-that-need-to-be-mapped)
 - [License](#license)
+- [Acknowledgements](#acknowledgements)
 
 -----
 
-## Getting Started / Onboarding
+## Getting started / onboarding
 
 New to running AI workloads on HPC? Start here for fundamentals and hands-on introductions.
 
@@ -43,7 +42,7 @@ New to running AI workloads on HPC? Start here for fundamentals and hands-on int
 | LUMI AI onboarding (fundamentals) | [LUMI AIF Onboarding](https://lumi-ai-factory.github.io/LUMI_AIF_Onboarding/) | Self-paced primer for newcomers for LUMI |
 | LUMI AI hands-on workshop | [Getting_Started_with_AI_workshop](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop) | Workshop material |
 
-## AI Container / Software environments on HPC
+## AI container / software environments on HPC
 
 Building and running container images and software environments on HPC systems.
 
@@ -112,7 +111,7 @@ Experiment tracking and visualization.
 | TensorBoard | [Lumi-supercomputer/LUMI-AI-Guide (Section 07)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/07-TensorBoard-visualization) | |
 | MLflow | [docs.csc.fi/support/tutorials/ml-workflows/](https://docs.csc.fi/support/tutorials/ml-workflows/#mlflow); [Lumi-supercomputer/LUMI-AI-Guide (Section 08)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/08-MLflowlization) | Guides for LUMI and Mahti |
 
-## Multi GPU and Node Training
+## Multi GPU and node training
 
 Scaling training across multiple GPUs and nodes.
 

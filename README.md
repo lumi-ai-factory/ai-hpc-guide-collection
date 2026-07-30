@@ -163,3 +163,11 @@ Promising resources we have found but not yet sorted into the sections above.
 ## License
 
 This collection is licensed under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+This collection is maintained by the [LUMI AI Factory](https://lumi-ai-factory.eu).
+
+[![LUMI AI Factory](assets/images/LUMI_AIF_logo.png)](https://lumi-ai-factory.eu)
+
+[![Funded by the EuroHPC Joint Undertaking and Participating States](assets/images/LUMI_AIF_funding.png)](https://lumi-ai-factory.eu)

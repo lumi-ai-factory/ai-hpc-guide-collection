@@ -28,6 +28,7 @@ This is a work in progress led by the [LUMI AI Factory](https://lumi-ai-factory.
 - [Quantization](#quantization)
 - [Relevant topics where no material has been found](#relevant-topics-where-no-material-has-been-found)
 - [Relevant resources that need to be mapped](#relevant-resources-that-need-to-be-mapped)
+- [HPC centre sources](#hpc-centre-sources)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
@@ -158,6 +159,12 @@ Promising resources we have found but not yet sorted into the sections above.
 - [ENCCS/castiel-multi-gpu-ai](https://github.com/ENCCS/castiel-multi-gpu-ai)
 - [openhackathons-org/End-to-End-AI-for-Science/tree/main/workspace/python](https://github.com/openhackathons-org/End-to-End-AI-for-Science/tree/main/workspace/python)
 - [olcf/ai-training-series](https://github.com/olcf/ai-training-series)
+
+## HPC centre sources
+
+A country-by-country list of European HPC centre, EuroHPC hosting site, and AI Factory GitHub/GitLab organizations whose training material and examples we still want to review and map into the sections above. Contributions and additions are welcome.
+
+See [hpc-centre-sources.md](hpc-centre-sources.md).
 
 ## License
 

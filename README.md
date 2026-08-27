@@ -95,7 +95,7 @@ Fine-tuning large language models, from single-GPU examples to very large traini
 
 | Topic | Guide | Notes |
 | --- | --- | --- |
-| Hugging Face Accelerate | [mimer-ai/llm_finetuning_example](https://github.com/mimer-ai/llm_finetuning_example) | Code snippets for Leonardo, LUMI, and Meluxina |
+| Hugging Face Accelerate | [sweden-ai-factory/llm_finetuning_example](https://github.com/sweden-ai-factory/llm_finetuning_example) | Code snippets for Leonardo, LUMI, and Meluxina |
 | Hugging Face Accelerate | [CSCfi/llm-fine-tuning-examples](https://github.com/CSCfi/llm-fine-tuning-examples) | Code snippets for LUMI and Mahti |
 | DeepSpeed | [AaltoRSE/llm-on-lumi](https://github.com/AaltoRSE/llm-on-lumi/tree/main) | Code snippets for LUMI |
 | Nanotron | [AaltoRSE/llm-on-lumi](https://github.com/AaltoRSE/llm-on-lumi/tree/main) | Code snippets for LUMI |

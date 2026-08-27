@@ -96,7 +96,7 @@
 
 ## Sweden
 
-- https://github.com/mimer-ai
+- https://github.com/sweden-ai-factory
 - https://github.com/ENCCS
 
 ## Switzerland

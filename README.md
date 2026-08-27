@@ -42,6 +42,7 @@ New to running AI workloads on HPC? Start here for fundamentals and hands-on int
 | --- | --- | --- |
 | LUMI AI onboarding (fundamentals) | [LUMI AIF Onboarding](https://lumi-ai-factory.github.io/LUMI_AIF_Onboarding/) | Self-paced primer for newcomers for LUMI |
 | LUMI AI hands-on workshop | [Getting_Started_with_AI_workshop](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop) | Workshop material |
+| Snellius AI onboarding | [SURF-ML/Snellius-AI-Guide](https://github.com/SURF-ML/Snellius-AI-Guide) | Fork of LUMI AI Guide for Snellius (SURF, Netherlands). |
 
 ## AI container / software environments on HPC
 
@@ -90,6 +91,7 @@ Serving and running inference with trained models.
 | Ollama | [CSCfi/ai-inference-examples](https://github.com/CSCfi/ai-inference-examples) | Code snippets, not full guide |
 | vLLM (multi-node / multi-GPU) | [EPICURE How-To: Multi-Node & Multi-GPU Inference with vLLM](https://eurohpcsupport.eu/how-to-guide/multi-node-multi-gpu-inference-with-vllm/) | Serving a large LLM (Qwen) across nodes on MeluXina (A100) with tensor + pipeline parallelism. |
 | llama.cpp (LLM inference on Arm) | [EPICURE: LLM with llama.cpp on Deucalion](https://eurohpcsupport.eu/code-snippet/llm-using-llama/) | Running Llama 3.1 8B with llama.cpp on Deucalion's Arm partition. |
+| vLLM | [SURF-ML/vllm-inference-slurm](https://github.com/SURF-ML/vllm-inference-slurm) | For Snellius (SURF, Netherlands). |
 
 ## LLM fine-tuning
 
@@ -104,6 +106,7 @@ Fine-tuning large language models, from single-GPU examples to very large traini
 | Megatron-Bridge (very large training runs) | [OpenEuroLLM/Megatron-Bridge-LUMI](https://github.com/OpenEuroLLM/Megatron-Bridge-LUMI/tree/main) | The code in this repo has been modified to work on AMD GPUs. See [quickstart](https://github.com/OpenEuroLLM/Megatron-Bridge-LUMI/blob/main/quickstart.md) for instructions on how to run this on LUMI. See also [OpenEuroLLM/Megatron-Bridge-utils](https://github.com/OpenEuroLLM/Megatron-Bridge-utils). Note that this probably requires some work to get it to run and thus probably only relevant for advanced users. |
 | Reinforcement learning fine-tuning (GRPO / RLVR) | [CSCfi/llm-rl-fine-tuning-examples](https://github.com/CSCfi/llm-rl-fine-tuning-examples) | Code snippets for LUMI; uses [verl](https://github.com/verl-project/verl) |
 | End-to-end LLM finetuning pipeline (LUMI) | [CSCfi/climate-llm-finetuning](https://github.com/CSCfi/climate-llm-finetuning) | On LUMI: data scraping/preprocessing → FAISS/RAG QA-dataset generation → fine-tuning → evaluation |
+| Large-scale LLM fine-tuning (FSDP2) | [idriscnrs/Democratizing-LLM-FT](https://github.com/idriscnrs/Democratizing-LLM-FT) | For Jean Zay (IDRIS, France). |
 
 ## MLOps
 
@@ -125,7 +128,7 @@ Scaling training across multiple GPUs and nodes.
 | Hugging Face Accelerate | [CSCfi/llm-fine-tuning-examples](https://github.com/CSCfi/llm-fine-tuning-examples) | Code snippets for LUMI and Mahti |
 | torchrun single-node multi-GCD | [Getting_Started_with_AI_workshop (Ch. 08)](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop/tree/main/08_Scaling_to_multiple_GPUs) | Workshop material. Adapting a Hugging Face/PyTorch training script for data-parallel training across all 8 GCDs on one node via torchrun. |
 | Multi-node scaling (RCCL/interconnect) | [Getting_Started_with_AI_workshop (Ch. 09)](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop/tree/main/09_Extreme_scale_AI) | Workshop material. Multi-node scaling: CPU–GPU binding masks, `NCCL_SOCKET_IFNAME`/`NCCL_NET_GDR_LEVEL`, aws-ofi-nccl CXI plugin for RCCL. |
-| PyTorch DDP multi-node scaling | [EPICURE: Scaling PyTorch DDP on Vega](https://eurohpcsupport.eu/best-practice/best-practice-guide-to-scaling-pytorch-distributeddataparallel/) | Vega (A100) |
+| PyTorch DDP multi-node scaling | [EPICURE: Scaling PyTorch DDP on Vega](https://eurohpcsupport.eu/best-practice/best-practice-guide-to-scaling-pytorch-distributeddataparallel/) | For Vega (A100). |
 | Scaling AI workloads (multiple EuroHPC systems) | [EPICURE: Best Practice Guide on AI on EuroHPC Systems](https://eurohpcsupport.eu/best-practice/best-practice-guide-on-artificial-intelligence-on-eurohpc-systems/); code: [opencode.it4i.eu/epicure/bpg-ai-workflows](https://opencode.it4i.eu/epicure/bpg-ai-workflows) | Vision and language benchmarks across 8 EuroHPC systems: Deucalion, Jupiter, Karolina, Leonardo, LUMI, MeluXina, MN5, Vega. |
 
 ## Profiling

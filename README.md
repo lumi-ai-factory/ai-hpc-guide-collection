@@ -87,11 +87,12 @@ Serving and running inference with trained models.
 | Topic | Guide | Notes |
 | --- | --- | --- |
 | vLLM | [Lumi-supercomputer/LUMI-AI-Guide (Section 10)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/10-LLM-inference) | Guide for LUMI |
-| vLLM | [CSCfi/ai-inference-examples](https://github.com/CSCfi/ai-inference-examples) | Code snippets, not full guide |
-| Ollama | [CSCfi/ai-inference-examples](https://github.com/CSCfi/ai-inference-examples) | Code snippets, not full guide |
+| vLLM | [CSCfi/ai-inference-examples](https://github.com/CSCfi/ai-inference-examples) | Code snippets for Roihu (CSC, Finland) and LUMI (hosted by CSC in Finland); not a full guide |
+| Ollama | [CSCfi/ai-inference-examples](https://github.com/CSCfi/ai-inference-examples) | Code snippets for Roihu (CSC, Finland) and LUMI (hosted by CSC in Finland); not a full guide |
 | vLLM (multi-node / multi-GPU) | [EPICURE How-To: Multi-Node & Multi-GPU Inference with vLLM](https://eurohpcsupport.eu/how-to-guide/multi-node-multi-gpu-inference-with-vllm/) | Serving a large LLM (Qwen) across nodes on MeluXina (A100) with tensor + pipeline parallelism. |
 | llama.cpp (LLM inference on Arm) | [EPICURE: LLM with llama.cpp on Deucalion](https://eurohpcsupport.eu/code-snippet/llm-using-llama/) | Running Llama 3.1 8B with llama.cpp on Deucalion's Arm partition. |
 | vLLM | [SURF-ML/vllm-inference-slurm](https://github.com/SURF-ML/vllm-inference-slurm) | For Snellius (SURF, Netherlands). |
+| vLLM vs Triton (benchmark) | [cyfronet/Benchmark-Triton-vLLM](https://github.com/cyfronet/Benchmark-Triton-vLLM) | For PLGrid Helios (GH200, Poland). |
 
 ## LLM fine-tuning
 
@@ -107,6 +108,7 @@ Fine-tuning large language models, from single-GPU examples to very large traini
 | Reinforcement learning fine-tuning (GRPO / RLVR) | [CSCfi/llm-rl-fine-tuning-examples](https://github.com/CSCfi/llm-rl-fine-tuning-examples) | Code snippets for LUMI; uses [verl](https://github.com/verl-project/verl) |
 | End-to-end LLM finetuning pipeline (LUMI) | [CSCfi/climate-llm-finetuning](https://github.com/CSCfi/climate-llm-finetuning) | On LUMI: data scraping/preprocessing → FAISS/RAG QA-dataset generation → fine-tuning → evaluation |
 | Large-scale LLM fine-tuning (FSDP2) | [idriscnrs/Democratizing-LLM-FT](https://github.com/idriscnrs/Democratizing-LLM-FT) | For Jean Zay (IDRIS, France). |
+| Megatron-LM pretraining setup | [SURF-ML/Megatron-LM-Snellius](https://github.com/SURF-ML/Megatron-LM-Snellius) | For Snellius (SURF, Netherlands). |
 
 ## MLOps
 
@@ -130,6 +132,7 @@ Scaling training across multiple GPUs and nodes.
 | Multi-node scaling (RCCL/interconnect) | [Getting_Started_with_AI_workshop (Ch. 09)](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop/tree/main/09_Extreme_scale_AI) | Workshop material. Multi-node scaling: CPU–GPU binding masks, `NCCL_SOCKET_IFNAME`/`NCCL_NET_GDR_LEVEL`, aws-ofi-nccl CXI plugin for RCCL. |
 | PyTorch DDP multi-node scaling | [EPICURE: Scaling PyTorch DDP on Vega](https://eurohpcsupport.eu/best-practice/best-practice-guide-to-scaling-pytorch-distributeddataparallel/) | For Vega (A100). |
 | Scaling AI workloads (multiple EuroHPC systems) | [EPICURE: Best Practice Guide on AI on EuroHPC Systems](https://eurohpcsupport.eu/best-practice/best-practice-guide-on-artificial-intelligence-on-eurohpc-systems/); code: [opencode.it4i.eu/epicure/bpg-ai-workflows](https://opencode.it4i.eu/epicure/bpg-ai-workflows) | Vision and language benchmarks across 8 EuroHPC systems: Deucalion, Jupiter, Karolina, Leonardo, LUMI, MeluXina, MN5, Vega. |
+| PyTorch DDP / Lightning / DeepSpeed examples | [CSCfi/pytorch-ddp-examples](https://github.com/CSCfi/pytorch-ddp-examples) | For Roihu (CSC, Finland). |
 
 ## Profiling
 
@@ -147,9 +150,9 @@ Reducing model size and memory footprint via quantization.
 
 | Topic | Guide | Notes |
 | --- | --- | --- |
-| AWQ (Activation-aware Weight Quantization) | [docs.csc.fi/support/tutorials/ml-llm/](https://docs.csc.fi/support/tutorials/ml-llm/#using-awq-quantization-via-llm-compressor); [CSCfi/llm-quantization-scripts](https://github.com/CSCfi/llm-quantization-scripts) | Examples for LUMI and Mahti |
-| bitsandbytes | [docs.csc.fi/support/tutorials/ml-llm/](https://docs.csc.fi/support/tutorials/ml-llm/#using-bitsandbytes-quantization); [CSCfi/llm-quantization-scripts](https://github.com/CSCfi/llm-quantization-scripts) | Examples for LUMI and Mahti |
-| GPTQ (Gradient Post-training Quantization) | [docs.csc.fi/support/tutorials/ml-llm/](https://docs.csc.fi/support/tutorials/ml-llm/#using-gptq-quantization); [CSCfi/llm-quantization-scripts](https://github.com/CSCfi/llm-quantization-scripts) | Examples for LUMI and Mahti |
+| AWQ (Activation-aware Weight Quantization) | [docs.csc.fi/support/tutorials/ml-llm/](https://docs.csc.fi/support/tutorials/ml-llm/#using-awq-quantization-via-llm-compressor); [CSCfi/llm-quantization-scripts](https://github.com/CSCfi/llm-quantization-scripts) | Examples for LUMI (hosted by CSC in Finland) and Roihu (CSC, Finland) |
+| bitsandbytes | [docs.csc.fi/support/tutorials/ml-llm/](https://docs.csc.fi/support/tutorials/ml-llm/#using-bitsandbytes-quantization); [CSCfi/llm-quantization-scripts](https://github.com/CSCfi/llm-quantization-scripts) | Examples for LUMI (hosted by CSC in Finland) and Roihu (CSC, Finland) |
+| GPTQ (Gradient Post-training Quantization) | [docs.csc.fi/support/tutorials/ml-llm/](https://docs.csc.fi/support/tutorials/ml-llm/#using-gptq-quantization); [CSCfi/llm-quantization-scripts](https://github.com/CSCfi/llm-quantization-scripts) | Examples for LUMI (hosted by CSC in Finland) and Roihu (CSC, Finland) |
 
 ## Relevant topics where no material has been found
 

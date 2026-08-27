@@ -4,6 +4,7 @@
 
 - https://github.com/OpenEuroLLM
 - https://github.com/NordicHPC
+- https://opencode.it4i.eu/epicure
 
 ## Austria
 

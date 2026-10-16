@@ -43,6 +43,7 @@ New to running AI workloads on HPC? Start here for fundamentals and hands-on int
 | LUMI AI onboarding (fundamentals) | [LUMI AIF Onboarding](https://lumi-ai-factory.github.io/LUMI_AIF_Onboarding/) | Self-paced primer for newcomers for LUMI (hosted by CSC in Finland) |
 | LUMI AI hands-on workshop | [Getting_Started_with_AI_workshop](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop) | Workshop material |
 | Snellius AI onboarding | [SURF-ML/Snellius-AI-Guide](https://github.com/SURF-ML/Snellius-AI-Guide) | Fork of LUMI AI Guide for Snellius (SURF, Netherlands). |
+| HPC-infrastructure foundations | [Minerva-guidebook/1 Infrastructure Foundations for Scalable LLM Training](https://best-practice-guides.minerva4ai.eu/optimizing-ai-models-on-european-infrastructure/Guide1_Infrastructure_Foundations/Guide1_Infrastructure_Foundations.html) | Comprehensive infrastructure foundations guide for AI on HPC from the best practises guidebook by Minerva 4 AI. |
 
 ## AI container / software environments on HPC
 
@@ -54,6 +55,7 @@ Building and running container images and software environments on HPC systems.
 | Running containers on LUMI | [Getting_Started_with_AI_workshop (Ch. 05)](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop/tree/main/05_Running_containers_on_LUMI) | Workshop material. Singularity/SingularityCE, pulling Docker images, using official LAIF containers. Container paths & course reservations are workshop-specific. |
 | Building containers from conda/pip | [Getting_Started_with_AI_workshop (Ch. 06)](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop/tree/main/06_Bulding_containers_from_conda_pip_environments) | Workshop material. Uses `cotainr` to build containers from conda/pip environments, incl. ROCm 7.0 PyTorch on AMD GPUs. |
 | Extending containers with virtual environments | [Getting_Started_with_AI_workshop (Ch. 07)](https://github.com/Lumi-supercomputer/Getting_Started_with_AI_workshop/tree/main/07_Extending_containers_with_virtual_environments_for_faster_testing) | Workshop material. Extending a container with a venv for faster iteration/testing. |
+| Containers on HPC | [Minerva-guidebook/1 Infrastructure Foundations for Scalable LLM Training (1.4.9)](https://best-practice-guides.minerva4ai.eu/optimizing-ai-models-on-european-infrastructure/Guide1_Infrastructure_Foundations/Guide1_Infrastructure_Foundations.html#containers-on-hpc) | A section on using containers on HPC systems from  the best practises guidebook by Minerva 4 AI. | 
 
 ## Data on Lustre
 
@@ -63,6 +65,7 @@ Storing and reading training data efficiently on the Lustre parallel filesystem.
 | --- | --- | --- |
 | File Formats | [Lumi-supercomputer/LUMI-AI-Guide (Section 03)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/03-file-formats) | Guide for LUMI (hosted by CSC in Finland) |
 | Data Storage | [Lumi-supercomputer/LUMI-AI-Guide (Section 04)](https://github.com/Lumi-supercomputer/LUMI-AI-Guide/tree/main/04-data-storage) | Guide for LUMI (hosted by CSC in Finland) |
+| Storage and Data Pipelines | [Minerva-guidebook/1 Infrastructure Foundations for Scalable LLM Training (1.3)](https://best-practice-guides.minerva4ai.eu/optimizing-ai-models-on-european-infrastructure/Guide1_Infrastructure_Foundations/Guide1_Infrastructure_Foundations.html#storage-and-data-pipelines) | A section on working on distributed filesystems from the best practises guidebook by Minerva 4 AI. |
 
 ## Evaluation frameworks
 
@@ -71,6 +74,7 @@ Benchmarking and evaluating trained models.
 | Topic | Guide | Notes |
 | --- | --- | --- |
 | LM Eval Harness on LUMI | [LumiOpen/lm-evaluation-harness](https://github.com/LumiOpen/lm-evaluation-harness) | Fork by LumiOpen for LUMI (hosted by CSC in Finland) |
+| Evaluation and Model Monitoring | [Minerva-guidebook/ 2 Efficient and Reliable LLM Pretraining (2.11)](https://best-practice-guides.minerva4ai.eu/optimizing-ai-models-on-european-infrastructure/Guide2_Efficient_Reliable_Pretraining/Guide2_Efficient_Reliable_Pretraining.html#evaluation-and-model-monitoring) | A section on LLM evaluation from the best practises guidebook by Minerva 4 AI. |
 
 ## Hyperparameter optimization
 
@@ -93,6 +97,7 @@ Serving and running inference with trained models.
 | llama.cpp (LLM inference on Arm) | [EPICURE: LLM with llama.cpp on Deucalion](https://eurohpcsupport.eu/code-snippet/llm-using-llama/) | Running Llama 3.1 8B with llama.cpp on Deucalion's Arm partition. |
 | vLLM | [SURF-ML/vllm-inference-slurm](https://github.com/SURF-ML/vllm-inference-slurm) | For Snellius (SURF, Netherlands). |
 | vLLM vs Triton (benchmark) | [cyfronet/Benchmark-Triton-vLLM](https://github.com/cyfronet/Benchmark-Triton-vLLM) | For PLGrid Helios (GH200, Poland). |
+| Efficient Inference and Test-Time Compute | [Minerva-guidebook/3 Post-Training — Alignment and User-Centered Objectives (3.3)](https://best-practice-guides.minerva4ai.eu/optimizing-ai-models-on-european-infrastructure/Guide3_PostTraining_Alignment/Guide3_PostTraining_Alignment.html#efficient-inference-and-test-time-compute) | A section on efficient inference, including reasoning, latency, memory, prompt templating, quantization and pruning, from the the best practises guidebook by Minerva 4 AI. |
 
 ## LLM fine-tuning
 
@@ -109,6 +114,7 @@ Fine-tuning large language models, from single-GPU examples to very large traini
 | End-to-end LLM finetuning pipeline (LUMI) | [CSCfi/climate-llm-finetuning](https://github.com/CSCfi/climate-llm-finetuning) | On LUMI (hosted by CSC in Finland): data scraping/preprocessing → FAISS/RAG QA-dataset generation → fine-tuning → evaluation |
 | Large-scale LLM fine-tuning (FSDP2) | [idriscnrs/Democratizing-LLM-FT](https://github.com/idriscnrs/Democratizing-LLM-FT) | For Jean Zay (IDRIS, France). |
 | Megatron-LM pretraining setup | [SURF-ML/Megatron-LM-Snellius](https://github.com/SURF-ML/Megatron-LM-Snellius) | For Snellius (SURF, Netherlands). |
+| Instruction tuning & reinforcement learning | [Minerva-guidebook/3 Post-Training — Alignment and User-Centered Objectives (3.1 & 3.2)](https://best-practice-guides.minerva4ai.eu/optimizing-ai-models-on-european-infrastructure/Guide3_PostTraining_Alignment/Guide3_PostTraining_Alignment.html) | Sections on instruction tuning and reinforcement learning from the best practises guidebook by Minerva 4 AI. |
 
 ## MLOps
 
@@ -133,6 +139,7 @@ Scaling training across multiple GPUs and nodes.
 | PyTorch DDP multi-node scaling | [EPICURE: Scaling PyTorch DDP on Vega](https://eurohpcsupport.eu/best-practice/best-practice-guide-to-scaling-pytorch-distributeddataparallel/) | For Vega (A100). |
 | Scaling AI workloads (multiple EuroHPC systems) | [EPICURE: Best Practice Guide on AI on EuroHPC Systems](https://eurohpcsupport.eu/best-practice/best-practice-guide-on-artificial-intelligence-on-eurohpc-systems/); code: [opencode.it4i.eu/epicure/bpg-ai-workflows](https://opencode.it4i.eu/epicure/bpg-ai-workflows) | Vision and language benchmarks across 8 EuroHPC systems: Deucalion, Jupiter, Karolina, Leonardo, LUMI, MeluXina, MN5, Vega. |
 | PyTorch DDP / Lightning / DeepSpeed examples | [CSCfi/pytorch-ddp-examples](https://github.com/CSCfi/pytorch-ddp-examples) | For Roihu (CSC, Finland). |
+| LLM pretraining at scale | [Minerva-guidebook/2  Efficient and Reliable LLM Pretraining](https://best-practice-guides.minerva4ai.eu/optimizing-ai-models-on-european-infrastructure/Guide2_Efficient_Reliable_Pretraining/Guide2_Efficient_Reliable_Pretraining.html) | A section on pretraining, including parallelism techniques and training efficiency, from best practises guidebook by Minerva 4 AI. |
 
 ## Profiling
 
@@ -170,6 +177,7 @@ Promising resources we have found but not yet sorted into the sections above.
 - [ENCCS/castiel-multi-gpu-ai](https://github.com/ENCCS/castiel-multi-gpu-ai)
 - [openhackathons-org/End-to-End-AI-for-Science/tree/main/workspace/python](https://github.com/openhackathons-org/End-to-End-AI-for-Science/tree/main/workspace/python)
 - [olcf/ai-training-series](https://github.com/olcf/ai-training-series)
+- [Minerva-guidebook/4 Explainable AI](https://best-practice-guides.minerva4ai.eu/optimizing-ai-models-on-european-infrastructure/Guide4_Explainable_AI/Guide4_Explainable_AI.html)
 
 ## HPC centre sources
 
